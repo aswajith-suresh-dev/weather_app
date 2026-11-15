@@ -94,6 +94,9 @@ setForecast(null);
 
           <Forecast forecast={forecast} />
 
+<footer className="text-center text-md text-slate-500 pt-4 border-t border-slate-100">
+ ✍️ Signed, Aswajith | React + Tailwind
+</footer>
         </div>
       </div>
     </main>
