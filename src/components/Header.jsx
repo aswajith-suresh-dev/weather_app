@@ -32,7 +32,7 @@ const time = cityTime.toLocaleTimeString("en-US", {
       {/* Left Section */}
       <div className="header-left flex flex-col gap-6 w-full md:w-auto">
         {/* Logo */}
-        <div className="header-logo flex items-center gap-2">
+        <div className="header-logo flex items-center justify-center md:justify-start gap-2">
           <TiWeatherPartlySunny className="text-4xl text-orange-700" />
           <h1 className="text-2xl font-bold tracking-wide text-slate-900">
             SkyCast
